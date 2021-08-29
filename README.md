@@ -13,5 +13,5 @@ project is created with
 * Bootstrap
 * jQuery
 
-A link to the website pinksugar.netlify.app
+A link to the website [click here](pinksugar.netlify.app)
 
