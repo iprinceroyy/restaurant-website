@@ -5,7 +5,49 @@
 
 /* GLOBAL */
 
-header .center #asterisk:before,
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background: url("../assets/images/pexels-brigitte-tohm-239581.jpg") no-repeat center/cover;
+}
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header h2 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header hr {
+    color: white;
+}
+
+header p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+header header .center #asterisk:before,
 header .center #asterisk:after {
     content: "";
     display: inline-block;
@@ -14,23 +56,15 @@ header .center #asterisk:after {
     height: 1px;
     width: 0%;
     opacity: 0;
-    background: #fff;
+    background: black;
 }
 
-header .center #asterisk:before {
+header #asterisk:before {
     margin-right: 10px;
 }
 
-header .center #asterisk:after {
+header #asterisk:after {
     margin-left: 10px;
-}
-
-header .center p {
-    text-transform: uppercase;
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 3px;
 }
 
 
@@ -85,7 +119,7 @@ header .center p {
 }
 
 .add-flex .stuffed-cherries {
-    background: url(../../assets/images/61b19844448b2bad5c78e9a2c6347986.jpg) no-repeat center center;
+    background: url(../assets/images/61b19844448b2bad5c78e9a2c6347986.jpg) no-repeat center center;
     background-size: cover;
     height: 315px;
     width: 320px;
@@ -167,7 +201,7 @@ header .center p {
 /* TASTEFUL RECIPES SECTION */
 
 .bread-background {
-    background: url(../../assets/images/pexels-tim-douglas-6210824.jpg) no-repeat center center;
+    background: url(../assets/images/pexels-tim-douglas-6210824.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -207,7 +241,7 @@ header .center p {
 /* THE PERFECT BLEND SECTION */
 
 .cake-background {
-    background: url(../../assets/images/pexels-olga-lioncat-7245465.jpg) no-repeat center center;
+    background: url(../assets/images/pexels-olga-lioncat-7245465.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
