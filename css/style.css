@@ -18,6 +18,9 @@ header {
     background: url("../assets/images/pexels-brigitte-tohm-239581.jpg") no-repeat center/cover;
 }
 
+
+/* navigation */
+
 .navbar {
     padding: 0 0 0.5rem;
 }
@@ -374,38 +377,6 @@ footer .copyright span {
 }
 
 @media (min-width: 769px) {
-    /* NAV */
-    /* FOOTER */
-    nav {
-        position: initial !important;
-        align-items: baseline;
-        padding: 20px 70px !important;
-    }
-    nav .nav-button {
-        display: none;
-    }
-    nav div {
-        position: initial !important;
-        background: none !important;
-        opacity: initial !important;
-        transform: initial !important;
-    }
-    nav div ul {
-        position: initial !important;
-        flex-direction: row !important;
-    }
-    nav div ul .exit-menu {
-        display: none;
-    }
-    nav div ul li a {
-        font-size: 12.8px;
-        margin: 0 10px;
-        letter-spacing: 1px;
-        padding: 5px 0 !important;
-    }
-    nav div ul .active {
-        border-bottom: solid 1px lightgray;
-    }
     .add-padding {
         padding: 50px 0;
     }
