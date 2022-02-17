@@ -19,6 +19,12 @@
     box-sizing: border-box;
 }
 
+@media screen and(max-width: 500px) {
+     :root {
+        font-size: 40px;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -28,7 +34,6 @@ header {
     background: url("../assets/images/pexels-yente-van-eynde-2403392.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 
