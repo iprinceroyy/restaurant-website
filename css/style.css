@@ -12,32 +12,39 @@
 /* GLOBAL */
 
 .header {
-    height: 100vh;
     background: url("../assets/images/pexels-yente-van-eynde-2403392.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
 }
 
 
 /* navigation */
 
 .navbar {
-    margin: 0 1.5rem 1rem;
+    padding: 0 0 0.5rem;
 }
 
 .navbar-brand {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar .container-fluid {
+    padding: 0 0 3%;
 }
 
 .nav-item {
-    padding: 0 0.5rem;
+    padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1rem;
-    font-family: "Kumbh Sans", sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Montserrat-Light'
 }
 
 .header .description {
@@ -120,7 +127,8 @@
 
 /* CLASSES */
 
-.custom-font {
+
+/*.custom-font {
     font-family: "Alex Brush", cursive;
     color: #be8040;
     font-size: 75px;
@@ -243,20 +251,26 @@
 .fa-cutlery {
     color: #be8040;
 }
+*/
 
 
 /* TASTEFUL RECIPES SECTION */
 
+
+/*
 .bread-background {
     background: url(../assets/images/pexels-tim-douglas-6210824.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
+*/
 
 
 /* MENU SECTION */
 
+
+/*
 .menu {
     padding: 30px;
 }
@@ -270,10 +284,13 @@
 .menu-images img {
     width: 100%;
 }
+*/
 
 
 /* CHEF SECTION */
 
+
+/*
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -283,10 +300,13 @@
 .carousel {
     margin: 50px 300px 300px 300px;
 }
+*/
 
 
 /* THE PERFECT BLEND SECTION */
 
+
+/*
 .cake-background {
     background: url(../assets/images/pexels-olga-lioncat-7245465.jpg) no-repeat center center;
     background-size: cover;
@@ -301,6 +321,8 @@
 
 /* CULINARY DELIGHT SECTION */
 
+
+/*
 .reservation-section {
     margin-bottom: 40px;
 }
@@ -324,6 +346,8 @@
 
 /* FOOTER */
 
+
+/*
 footer {
     margin: 0;
     position: relative;
@@ -385,6 +409,8 @@ footer .copyright span {
 
 /* MEDIA QUERIES */
 
+
+/*
 @media (min-width: 768px) {
     footer .restaurant-info {
         flex-direction: row;
@@ -445,6 +471,8 @@ footer .copyright span {
 
 /* ANIMATIONS */
 
+
+/*
 #asterisk {
     opacity: 0;
     transform-origin: 50% 4%;
