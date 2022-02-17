@@ -12,8 +12,18 @@
 /* GLOBAL */
 
 .header {
+    height: 100vh;
     background-position: center center;
     background-size: cover;
+}
+
+.header img {
+    position: absolute;
+    width: auto;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 .container-fluid {
