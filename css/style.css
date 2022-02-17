@@ -11,26 +11,7 @@
 
 /* GLOBAL */
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@media (width <=35em) {
-    header {
-        background-size: contain;
-        height: auto;
-    }
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-header {
+.header {
     height: 100vh;
     background: url("../assets/images/pexels-yente-van-eynde-2403392.jpg") no-repeat;
     background-position: center center;
@@ -41,7 +22,7 @@ header {
 /* navigation */
 
 .navbar {
-    margin: 0 1rem 1rem;
+    margin: 0 1.5rem 1rem;
 }
 
 .navbar-brand {
@@ -59,11 +40,11 @@ header {
     font-family: "Kumbh Sans", sans-serif;
 }
 
-header .description {
+.header .description {
     margin: 5rem 0 0;
 }
 
-header h1 {
+.header h1 {
     color: #fff;
     font-size: 5rem;
     font-family: "Niconne", cursive;
@@ -113,7 +94,7 @@ header h1 {
     }
 }
 
-header h2 {
+.header h2 {
     color: #fff;
     font-size: 2rem;
     text-transform: uppercase;
@@ -121,40 +102,16 @@ header h2 {
     justify-content: center;
 }
 
-.animate span:nth-of-type(4) {
-    animation-delay: 0.15s;
-}
-
-header hr {
+.header hr {
     color: white;
 }
 
-header p {
+.header p {
     color: #fff;
     font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
     justify-content: center;
-}
-
-header header .center #asterisk:before,
-header .center #asterisk:after {
-    content: "";
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    height: 1px;
-    width: 0%;
-    opacity: 0;
-    background: black;
-}
-
-header #asterisk:before {
-    margin-right: 10px;
-}
-
-header #asterisk:after {
-    margin-left: 10px;
 }
 
 
@@ -427,14 +384,6 @@ footer .copyright span {
 
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 425px) {
-    header,
-    .bread-background,
-    .cake-background {
-        background-attachment: scroll;
-    }
-}
 
 @media (min-width: 768px) {
     footer .restaurant-info {
