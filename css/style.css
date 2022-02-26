@@ -17,6 +17,10 @@
     background-size: cover;
 }
 
+.header>div {
+    width: 100vw;
+}
+
 .header img {
     position: absolute;
     width: auto;
