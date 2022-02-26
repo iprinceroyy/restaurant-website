@@ -140,8 +140,7 @@
 
 /* CLASSES */
 
-
-/*.custom-font {
+*.custom-font {
     font-family: "Alex Brush", cursive;
     color: #be8040;
     font-size: 75px;
@@ -264,26 +263,20 @@
 .fa-cutlery {
     color: #be8040;
 }
-*/
 
 
 /* TASTEFUL RECIPES SECTION */
 
-
-/*
 .bread-background {
     background: url(../assets/images/pexels-tim-douglas-6210824.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
 }
-*/
 
 
 /* MENU SECTION */
 
-
-/*
 .menu {
     padding: 30px;
 }
@@ -297,13 +290,10 @@
 .menu-images img {
     width: 100%;
 }
-*/
 
 
 /* CHEF SECTION */
 
-
-/*
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -313,13 +303,10 @@
 .carousel {
     margin: 50px 300px 300px 300px;
 }
-*/
 
 
 /* THE PERFECT BLEND SECTION */
 
-
-/*
 .cake-background {
     background: url(../assets/images/pexels-olga-lioncat-7245465.jpg) no-repeat center center;
     background-size: cover;
@@ -334,8 +321,6 @@
 
 /* CULINARY DELIGHT SECTION */
 
-
-/*
 .reservation-section {
     margin-bottom: 40px;
 }
@@ -359,8 +344,6 @@
 
 /* FOOTER */
 
-
-/*
 footer {
     margin: 0;
     position: relative;
@@ -422,8 +405,6 @@ footer .copyright span {
 
 /* MEDIA QUERIES */
 
-
-/*
 @media (min-width: 768px) {
     footer .restaurant-info {
         flex-direction: row;
@@ -484,8 +465,6 @@ footer .copyright span {
 
 /* ANIMATIONS */
 
-
-/*
 #asterisk {
     opacity: 0;
     transform-origin: 50% 4%;
